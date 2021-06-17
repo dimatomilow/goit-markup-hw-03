@@ -7,6 +7,7 @@
   --roboto-font: 'Roboto', sans-serif;
   --logo-font: 'Raleway', sans-serif;
 }
+
 body {
   background-color: var(--white-color);
   color: var(--text-color);
@@ -15,12 +16,14 @@ body {
   font-weight: 400;
   line-height: 1.1;
 }
+
 .container {
   width: 1200px;
   padding: 0 15px 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .list {
   padding: 0;
   margin: 0;
@@ -37,10 +40,12 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .menu-nav {
   display: flex;
   align-items: center;
 }
+
 .logo {
   margin-right: 93px;
   text-decoration: none;
@@ -50,10 +55,12 @@ body {
   line-height: 1.1;
   color: var(--title-text-color);
 }
+
 .logo-decoration {
   font-family: var(--logo-font);
   color: var(--accnt-color);
 }
+
 .nav-list {
   display: flex;
   justify-content: center;
@@ -77,6 +84,7 @@ body {
   justify-content: flex-end;
   list-style: none;
 }
+
 .nav-contact-item {
   margin-left: 50px;
   text-decoration: none;
@@ -96,6 +104,7 @@ body {
   text-align: center;
   background: #2f303a;
 }
+
 .hero-tetle {
   text-transform: uppercase;
   margin: 0;
@@ -105,6 +114,7 @@ body {
   line-height: 1.3;
   color: var(--white-color);
 }
+
 .hero-button {
   border: none;
   min-width: 200px;
@@ -120,24 +130,30 @@ body {
   color: var(--white-color);
   cursor: pointer;
 }
+
 .features {
   padding: 94px 0;
 }
+
 .tiile-none {
   display: none;
 }
+
 .features-list {
   list-style: none;
   display: flex;
   justify-content: space-between;
   margin-left: -30px;
 }
+
 .features-list-item {
   margin-left: 30px;
 }
+
 .tiile-none {
   margin: 0;
 }
+
 .features-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -145,6 +161,7 @@ body {
   font-weight: 700;
   font-size: 14px;
 }
+
 .features-text {
   color: var(--text-color);
   line-height: 1.7;
@@ -156,6 +173,7 @@ body {
   text-align: center;
   padding-bottom: 95px;
 }
+
 .work-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -163,6 +181,7 @@ body {
   font-size: 36px;
   color: var(--title-text-color);
 }
+
 .work-img {
   display: flex;
   justify-content: space-between;
@@ -175,16 +194,17 @@ body {
   background-color: var(--button-color);
   padding: 94px 0;
 }
+
 .team-list {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
-.team-list-item {
-}
+
 .team-item {
   margin-bottom: 30px;
 }
+
 .team-title {
   text-align: center;
   margin-top: 0%;
@@ -193,11 +213,13 @@ body {
   line-height: 42px;
   color: var(--title-text-color);
 }
+
 .team-title-name {
   margin-top: 0;
   font-size: 16px;
   color: var(--title-text-color);
 }
+
 .team-text {
   font-size: 16px;
   margin: 10px 0 30px;
@@ -209,6 +231,7 @@ body {
   padding: 60px 0;
   background-color: #2f303a;
 }
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -219,13 +242,16 @@ body {
   line-height: 1.1;
   color: var(--white-color);
 }
+
 .address {
   font-style: inherit;
 }
+
 .address-list {
   display: inline-block;
   list-style: none;
 }
+
 .address-link {
   display: inline-block;
   margin-bottom: 9px;
@@ -234,6 +260,7 @@ body {
   line-height: 1.7;
   color: var(--white-color);
 }
+
 .address-link:hover,
 .address-link:focus {
   color: var(--accnt-color);
@@ -246,6 +273,7 @@ body {
   margin-bottom: 9px;
   display: inline-block;
 }
+
 .contact-mai:hover,
 .contact-mai:focus {
   color: var(--accnt-color);
@@ -256,6 +284,7 @@ body {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .contact-tell:hover,
 .contact-tell:focus {
   color: var(--accnt-color);
@@ -266,14 +295,17 @@ body {
 .filter {
   padding: 95px 0 50px;
 }
+
 .filter-list {
   display: flex;
   justify-content: center;
   list-style: none;
 }
+
 .filter-list-item {
   margin-left: 8px;
 }
+
 .filter-button {
   border: none;
   border-radius: 4px;
@@ -286,14 +318,17 @@ body {
   color: var(--title-text-color);
   cursor: pointer;
 }
+
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--accnt-color);
   color: var(--white-color);
 }
+
 .portfolio {
   padding-bottom: 95px;
 }
+
 .portfolio-list {
   list-style: none;
   display: flex;
@@ -301,16 +336,19 @@ body {
   margin-left: -30px;
   margin-top: -30px;
 }
+
 .portfolio-list > .portfolio-list-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
+
 .portfolio-link {
   display: block;
   width: 100%;
   text-decoration: none;
 }
+
 .portfolio-blok {
   padding: 20px 24px;
 }
@@ -322,6 +360,7 @@ body {
   line-height: 2;
   color: var(--title-text-color);
 }
+
 .portfolio-text {
   margin: 0%;
   color: var(--text-color);
