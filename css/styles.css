@@ -18,6 +18,8 @@ body {
 .container {
   width: 1200px;
   padding: 0 15px 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .list {
   padding: 0;
@@ -30,7 +32,17 @@ body {
   padding: 25px 0;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
 .logo {
+  margin-right: 93px;
   text-decoration: none;
   font-family: var(--logo-font);
   font-size: 26px;
@@ -43,10 +55,13 @@ body {
   color: var(--accnt-color);
 }
 .nav-list {
+  display: flex;
+  justify-content: center;
   list-style: none;
 }
 
 .nav-list-item {
+  margin-left: 50px;
   text-decoration: none;
   font-weight: 500;
   color: var(--title-text-color);
@@ -58,9 +73,12 @@ body {
 }
 
 .nav-contact {
+  display: flex;
+  justify-content: flex-end;
   list-style: none;
 }
 .nav-contact-item {
+  margin-left: 50px;
   text-decoration: none;
   font-weight: 500;
   color: var(--text-color);
@@ -102,9 +120,17 @@ body {
 }
 .features {
   padding: 94px 0;
+  padding-left: -30px;
+}
+.tiile-none {
+  display: none;
 }
 .features-list {
   list-style: none;
+  display: flex;
+}
+.features-list-item {
+  margin-left: 30px;
 }
 .tiile-none {
   margin: 0;
@@ -125,7 +151,8 @@ body {
 ========================== */
 .work {
   text-align: center;
-  align-items: center;
+
+  padding-bottom: 95px;
 }
 .work-title {
   margin-top: 0;
@@ -139,16 +166,23 @@ body {
 /* Team
 ========================== */
 .team {
-  background-color: var(--text-color);
+  background-color: var(--button-color);
   padding: 94px 0;
+  margin-left: -30px;
 }
 .team-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.team-list-item {
+  margin-left: 30px;
 }
 .team-item {
   margin-bottom: 30px;
 }
 .team-title {
+  text-align: center;
   margin-top: 0%;
   margin-bottom: 50px;
   font-size: 36px;
@@ -229,9 +263,17 @@ body {
   padding: 95px 0 50px;
 }
 .filter-list {
+  display: flex;
+  justify-content: center;
   list-style: none;
 }
+.filter-list-item {
+  margin-left: 8px;
+}
 .filter-button {
+  border: none;
+  border-radius: 4px;
+
   font-family: var(--roboto-font);
   font-size: 16px;
   font-weight: 500;
@@ -250,13 +292,27 @@ body {
 }
 .portfolio-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.portfolio-list > .portfolio-list-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .portfolio-link {
+  display: block;
+  width: 100%;
   text-decoration: none;
+}
+.portfolio-blok {
+  padding: 20px 24px;
 }
 
 .portfolio-title {
-  margin: 20px 0 4px;
+  margin: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
