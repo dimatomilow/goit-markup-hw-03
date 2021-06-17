@@ -26,6 +26,9 @@ body {
 
 /* Навигация
 ========================== */
+.header {
+  padding: 25px 0;
+}
 
 .logo {
   text-decoration: none;
@@ -71,10 +74,12 @@ body {
 /* Features
 ========================== */
 .hero {
+  padding: 200px 0;
   text-align: center;
   background: #2f303a;
 }
 .hero-tetle {
+  text-transform: uppercase;
   margin: 0;
   font-weight: 900;
   font-size: 44px;
@@ -134,6 +139,7 @@ body {
 /* Team
 ========================== */
 .team {
+  background-color: var(--text-color);
   padding: 94px 0;
 }
 .team-list {
@@ -195,22 +201,33 @@ body {
   color: var(--accnt-color);
 }
 
-.address-contact {
+.contact-mail {
+  text-decoration: none;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+  display: inline-block;
+}
+.contact-mai:hover,
+.contact-mai:focus {
+  color: var(--accnt-color);
+}
+
+.contact-tell {
   text-decoration: none;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
-.address-contact:hover,
-.address-contact:focus {
+.contact-tell:hover,
+.contact-tell:focus {
   color: var(--accnt-color);
-}
-.contact-mail {
-  margin-bottom: 9px;
-  display: inline-block;
 }
 
 /* Portfolio
 ========================== */
+.filter {
+  padding: 95px 0 50px;
+}
 .filter-list {
   list-style: none;
 }
@@ -228,6 +245,9 @@ body {
   background-color: var(--accnt-color);
   color: var(--white-color);
 }
+.portfolio {
+  padding-bottom: 95px;
+}
 .portfolio-list {
   list-style: none;
 }
@@ -236,12 +256,14 @@ body {
 }
 
 .portfolio-title {
+  margin: 20px 0 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-color);
 }
 .portfolio-text {
+  margin: 0%;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.8;
