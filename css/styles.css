@@ -28,11 +28,15 @@ body {
   padding: 0;
   margin: 0;
 }
+.section {
+  padding: 94px 0;
+}
 
 /* Навигация
 ========================== */
 .header {
   padding: 25px 0;
+  border-bottom: 1px solid #ececec;
 }
 
 .menu {
@@ -171,7 +175,7 @@ body {
 ========================== */
 .work {
   text-align: center;
-  padding-bottom: 95px;
+  padding-bottom: 94px;
 }
 
 .work-title {
@@ -351,6 +355,8 @@ body {
 
 .portfolio-blok {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .portfolio-title {
