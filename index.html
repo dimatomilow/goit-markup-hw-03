@@ -23,33 +23,35 @@
     <!-- Навигация
     ========================-->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="menu">
-          <div class="menu-nav">
-            <a class="logo" href="./"
-              ><samp class="logo-decoration">Web</samp>Studio</a
-            >
-            <ul class="nav-list list">
-              <li><a class="nav-list-item" href="">Студия</a></li>
-              <li>
-                <a class="nav-list-item" href="./portfolio.html">Портфолио</a>
-              </li>
-              <li><a class="nav-list-item" href="">Контакты</a></li>
-            </ul>
-          </div>
-          <ul class="nav-contact list">
-            <li>
-              <a class="nav-contact-item" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+          <a class="logo" href="./"
+            ><samp class="logo-decoration">Web</samp>Studio</a
+          >
+          <ul class="nav-list list">
+            <li class="nav-list-link">
+              <a class="nav-list-item" href="./index.html">Студия</a>
             </li>
-            <li>
-              <a class="nav-contact-item" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="nav-list-link">
+              <a class="nav-list-item" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-list-link">
+              <a class="nav-list-item" href="">Контакты</a>
             </li>
           </ul>
         </nav>
+        <ul class="nav-contact list">
+          <li class="nav-contact-link">
+            <a class="nav-contact-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li class="nav-contact-link">
+          <li>
+            <a class="nav-contact-item" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -146,8 +148,8 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title-name">Игорь Демьяненко</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-container"><h3 class="team-title-name">Игорь Демьяненко</h3>
+              <p class="team-text">Product Designer</p></div>
             </li>
             <li class="team-list-item">
               <img
@@ -157,8 +159,8 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title-name">Ольга Репина</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-container"><h3 class="team-title-name">Ольга Репина</h3>
+              <p class="team-text">Frontend Developer</p></div>
             </li>
             <li class="team-list-item">
               <img
@@ -168,8 +170,8 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title-name">Николай Тарасов</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-container"><h3 class="team-title-name">Николай Тарасов</h3>
+              <p class="team-text">Marketing</p></div>
             </li>
             <li class="team-list-item">
               <img
@@ -179,8 +181,8 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title-name">Михаил Ермаков</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-container"><h3 class="team-title-name">Михаил Ермаков</h3>
+              <p class="team-text">UI Designer</p></div>
             </li>
           </ul>
         </div>
@@ -196,20 +198,20 @@
         >
         <address class="address">
           <ul class="address-list list">
-            <li>
+            <li class="address-link">
               <a
-                class="address-link"
+                class="address-contact"
                 href="https://cutt.ly/vnE3hMo"
                 target="_blank"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="address-link">
               <a class="contact-mail" href="mailto:info@devstudio.com"
                 >info@example.com</a
               >
             </li>
-            <li>
+            <li class="address-link">
               <a class="contact-tell" href="tel:+380961111111"
                 >+38 099 111 11 11</a
               >

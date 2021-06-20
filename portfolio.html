@@ -22,40 +22,42 @@
   <body>
     <!-- Навигация
     ====================-->
-    <header class="header">
-      <div class="container">
+     <header class="header">
+      <div class="container header-container">
         <nav class="menu">
-          <div class="menu-nav">
-            <a class="logo" href="./"
-              ><samp class="logo-decoration">Web</samp>Studio</a
-            >
-            <ul class="nav-list list">
-              <li><a class="nav-list-item" href="./index.html">Студия</a></li>
-              <li>
-                <a class="nav-list-item" href="./portfolio.html">Портфолио</a>
-              </li>
-              <li><a class="nav-list-item" href="">Контакты</a></li>
-            </ul>
-          </div>
-          <ul class="nav-contact list">
-            <li>
-              <a class="nav-contact-item" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+          <a class="logo" href="./"
+            ><samp class="logo-decoration">Web</samp>Studio</a
+          >
+          <ul class="nav-list list">
+            <li class="nav-list-link">
+              <a class="nav-list-item" href="./index.html">Студия</a>
             </li>
-            <li>
-              <a class="nav-contact-item" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="nav-list-link">
+              <a class="nav-list-item" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-list-link">
+              <a class="nav-list-item" href="">Контакты</a>
             </li>
           </ul>
         </nav>
+        <ul class="nav-contact list">
+          <li class="nav-contact-link">
+            <a class="nav-contact-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li class="nav-contact-link">
+          <li>
+            <a class="nav-contact-item" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <!-- Filter
+      <!-- Portfolio
     ======================-->
-      <section class="filter">
+      <section class="section">
         <div class="container">
           <h1 class="tiile-none">Наши работы</h1>
           <ul class="filter-list list">
@@ -81,13 +83,6 @@
               </button>
             </li>
           </ul>
-        </div>
-      </section>
-
-      <!-- Portfolio
-    ======================-->
-      <section class="portfolio">
-        <div class="container">
           <ul class="portfolio-list list">
             <li class="portfolio-list-item">
               <a href="#" class="portfolio-link">
@@ -230,20 +225,20 @@
         >
         <address class="address">
           <ul class="address-list list">
-            <li>
+            <li class="address-link">
               <a
-                class="address-link"
+                class="address-contact"
                 href="https://cutt.ly/vnE3hMo"
                 target="_blank"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="address-link">
               <a class="contact-mail" href="mailto:info@devstudio.com"
                 >info@example.com</a
               >
             </li>
-            <li>
+            <li class="address-link">
               <a class="contact-tell" href="tel:+380961111111"
                 >+38 099 111 11 11</a
               >
